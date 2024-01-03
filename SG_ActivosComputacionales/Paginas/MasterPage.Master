@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="SG_ActivosComputacionales.Paginas.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Sistema de Activos Computacionales</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <%-- para utilizar el framework CSS de Bulma  --%>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+    <%-- Para utilizar iconos FontAwesome --%>
+    <script src="https://kit.fontawesome.com/a2ec7d5873.js" crossorigin="anonymous"></script>
+
+    <%-- Notificacciones Toastr --%>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link href="../content/toastr.css" rel="stylesheet" />
+    <script src="../Scripts/toastr.js"></script>
+    <script src="../Scripts/notificaciones.js"></script>
+
+    <style>
+        /* Personalizar el color del Navbar */
+        .navbar {
+            background-color: #176B87;
+        }
+
+        /* Personalizar el color del texto de los botones en el Navbar */
+        .navbar-item {
+            color: white;
+        }
+    </style>
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <!-- Navbar de Bulma -->
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+
+                    <asp:LinkButton
+                        runat="server"
+                        ID="lnkbtnInicio"
+                        OnClick="lnkbtnInicio_Click"
+                        Text="Inicio"
+                        CssClass="navbar-item">
+
+                    </asp:LinkButton>
+
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+
+                        <asp:LinkButton 
+                            runat="server"
+                            ID="lnkbtnImportarActivos"
+                            OnClick="lnkbtnImportarActivos_Click"
+                            Text="Importar activos"
+                            CssClass="navbar-item">
+                        </asp:LinkButton>
+
+                        <asp:LinkButton 
+                            runat="server"
+                            ID="lnkbtnReporteria"
+                            OnClick="lnkbtnReporteria_Click"
+                            Text="Reporte de activos"
+                            CssClass="navbar-item">
+                        </asp:LinkButton>
+
+                    </div>
+
+                    <div class="navbar-end">
+                        <div class="navbar-item">
+                            <div class="buttons">
+
+                                <asp:LinkButton 
+                                    runat="server"
+                                    ID="lnkbtnSalir"
+                                    OnClick="lnkbtnSalir_Click"
+                                    Text="Salir" 
+                                    CssClass="button is-light">
+                                </asp:LinkButton>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

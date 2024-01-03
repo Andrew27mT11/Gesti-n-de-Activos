@@ -1,0 +1,9 @@
+D:\CUC Andres\VIII Cuatri\Funda ADM Proyectos\Proyecto\SG_ActivosComputacionales\Negocio\bin\Debug\Negocio.dll
+D:\CUC Andres\VIII Cuatri\Funda ADM Proyectos\Proyecto\SG_ActivosComputacionales\Negocio\bin\Debug\Negocio.pdb
+D:\CUC Andres\VIII Cuatri\Funda ADM Proyectos\Proyecto\SG_ActivosComputacionales\Negocio\bin\Debug\Datos.dll
+D:\CUC Andres\VIII Cuatri\Funda ADM Proyectos\Proyecto\SG_ActivosComputacionales\Negocio\bin\Debug\Datos.pdb
+D:\CUC Andres\VIII Cuatri\Funda ADM Proyectos\Proyecto\SG_ActivosComputacionales\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+D:\CUC Andres\VIII Cuatri\Funda ADM Proyectos\Proyecto\SG_ActivosComputacionales\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\CUC Andres\VIII Cuatri\Funda ADM Proyectos\Proyecto\SG_ActivosComputacionales\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+D:\CUC Andres\VIII Cuatri\Funda ADM Proyectos\Proyecto\SG_ActivosComputacionales\Negocio\obj\Debug\Negocio.dll
+D:\CUC Andres\VIII Cuatri\Funda ADM Proyectos\Proyecto\SG_ActivosComputacionales\Negocio\obj\Debug\Negocio.pdb

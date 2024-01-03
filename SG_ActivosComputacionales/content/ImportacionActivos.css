@@ -1,0 +1,247 @@
+﻿body {
+    background-color: #EEEEEE;
+    color: #053B50;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+div {
+    text-align: center;
+}
+
+.contender {
+    margin: 20px; /* Espacios alrededor del contenedor */
+    padding: 20px; /* Relleno dentro del contenedor */
+    background-color: #ffffff; /* Color de fondo del contenedor */
+    border: 1px solid #dddddd; /* Borde del contenedor */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.content-title {
+    background-color: #176B87;
+    color: #EEEEEE;
+    padding: 15px; 
+    margin-bottom: 30px; 
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em; 
+}
+
+#lblBuscar {
+    color: #053B50;
+    margin-right: 10px; 
+
+}
+
+#txtBuscar {
+    color: #176B87;
+    background-color: #EEEEEE;
+    text-align: center;
+    padding: 10px; 
+    border: 3px solid #176B87;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    font-size: 1.2em; 
+}
+
+#btnImportar {
+    color: #EEEEEE;
+    background-color: #176B87;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px; 
+    font-size: 1.2em; 
+}
+
+hr {
+    border: 2px solid #176B87; 
+    margin: 30px 0; 
+}
+
+#SubirActivos {
+    color: #176B87;
+    background-color: #EEEEEE;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid #176B87;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+    #SubirActivos:hover {
+        background-color: #64CCC5;
+    }
+
+#btnCargarActivos, #btnVolver {
+    color: #EEEEEE;
+    background-color: #176B87;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+#gvActivos {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px; 
+}
+
+    #gvActivos th,
+    #gvActivos td {
+        border: 2px solid #176B87; 
+        padding: 12px; 
+        text-align: left;
+        font-size: 1.2em; 
+    }
+
+    #gvActivos th {
+        background-color: #176B87;
+        color: #EEEEEE;
+        font-size: 1.2em;
+    }
+
+.modal {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transform: translateY(-50%);
+    border-top: 2px solid rgba(0, 0, 0, 0.7);
+    overflow-y: auto;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+    .close:hover {
+        color: black;
+    }
+
+.modal-content {
+    background-color: #EEEEEE;
+    margin: 10% auto;
+    padding: 20px;
+    border: 3px solid #176B87;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.close {
+    color: #176B87;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+    .close:hover {
+        color: #053B50;
+    }
+
+h2 {
+    color: #176B87;
+    margin-bottom: 15px;
+}
+
+hr {
+    border: 1px solid #176B87;
+    margin: 15px 0;
+}
+
+label {
+    color: #053B50;
+    font-weight: bold;
+}
+
+.drop-down-list,
+.text-box,
+.btn-guardar {
+    margin-bottom: 15px;
+}
+
+#ddlCategorias,
+#ddlMarca,
+#ddlEstado,
+#ddlCondicion,
+#ddlDepartamento,
+#ddlArea {
+    width: 37%;
+    padding: 8px;
+    border: 1px solid #176B87;
+    border-radius: 5px;
+    background-color: #EEEEEE;
+    color: #176B87;
+    text-align: center;
+}
+
+#txtIdActivo,
+#txtModelo,
+#txtDireccionExacta {
+    width: 35%;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #176B87;
+    border-radius: 5px;
+    background-color: #EEEEEE;
+    color: #176B87;
+}
+
+.btn-guardar {
+    color: #EEEEEE;
+    background-color: #176B87;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+    .btn-guardar:hover {
+        background-color: #64CCC5;
+        color:rgba(0, 0, 0, 0.7);
+    }
+
+.imgSuperior {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1; /* Asegura que la imagen superior esté arriba de otros elementos */
+}
+
+.imgInferior {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1; /* Asegura que la imagen inferior esté arriba de otros elementos */
+}

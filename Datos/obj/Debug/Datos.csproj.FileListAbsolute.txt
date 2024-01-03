@@ -1,0 +1,6 @@
+D:\CUC Andres\VIII Cuatri\Funda ADM Proyectos\Proyecto\SG_ActivosComputacionales\Datos\bin\Debug\Datos.dll
+D:\CUC Andres\VIII Cuatri\Funda ADM Proyectos\Proyecto\SG_ActivosComputacionales\Datos\bin\Debug\Datos.pdb
+D:\CUC Andres\VIII Cuatri\Funda ADM Proyectos\Proyecto\SG_ActivosComputacionales\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+D:\CUC Andres\VIII Cuatri\Funda ADM Proyectos\Proyecto\SG_ActivosComputacionales\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+D:\CUC Andres\VIII Cuatri\Funda ADM Proyectos\Proyecto\SG_ActivosComputacionales\Datos\obj\Debug\Datos.dll
+D:\CUC Andres\VIII Cuatri\Funda ADM Proyectos\Proyecto\SG_ActivosComputacionales\Datos\obj\Debug\Datos.pdb
